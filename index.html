@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231120065026">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231121054628">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 		<!-- <header class="header"> -->
 		<header id="site-header" class="header">
 			<div class="header__container">
-				<div class="header__logo logo">
+				<div data-watch class="header__logo logo">
 					<a href="" class="logo__main"><img src="img/logo.svg" alt="no-image">Influenzilla</a>
 					<a data-da=".menu__list--top, 767.98" href="#!" class="logo__link">
 						bespoke design and marketing services
@@ -25,14 +25,14 @@
 				</div>
 				<div class="header__menu menu">
 					<nav class="menu__body">
-						<ul class="menu__list menu__list--top">
+						<ul data-watch class="menu__list menu__list--top">
 							<li class="menu__item"><a href="#!" class="menu__link">ABOUT</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link">SERVISES</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link">CASES</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link">TEAM</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link _icon-globus"></a></li>
 						</ul>
-						<ul class="menu__list menu__list--bot">
+						<ul data-watch class="menu__list menu__list--bot">
 							<li class="menu__item"><a href="#!" class="menu__link">BOOST PROGRAM</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link">PRODUCTS</a></li>
 							<li class="menu__item"><a href="#!" class="menu__link">BOOK</a></li>
@@ -43,15 +43,17 @@
 				</div>
 			</div>
 		</header>
-		<main class="page">
+		<main data-watch-root class="page">
 			<!-- <Вставка helper> — Блок ОТКРЫТ:↓▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬↓-->
 			<!-- 1 --><!-- Сниппет sc+ -->
-			<section class="page__hero hero">
-
+			<section class="page__hero hero ">
+				<div class="hero__bg">
+					<picture><source srcset="img/hero/bg-hero.webp" type="image/webp"><img src="img/hero/bg-hero.jpg" alt=""></picture>
+				</div>
 				<!-- #region hero__body -->
 				<div class="hero__body">
 					<div class="hero__container">
-						<div class="hero__subtitles subtitles">
+						<div data-watch class="hero__subtitles subtitles ">
 							<div class="subtitles__item subtitles__item--1 subtitles__item--col">
 								<p>2023</p>
 							</div>
@@ -60,18 +62,18 @@
 							</div>
 						</div>
 						<div class="hero__row">
-							<div class="hero__titles titles titles--decor">
-								<div class="titles__title ">
-									<h2 class="titles--decor-t">
+							<div data-watch class="hero__titles titles titles--decor">
+								<div data-watch class="titles__title">
+									<h1 class="titles--decor-t">
 										Influence your <br> audience
-									</h2>
+									</h1>
 								</div>
 								<div class="titles__text">
 									<p>boost your brand with our marketing expertise</p>
 								</div>
 							</div>
-							<div class="hero__textles textles _icon-star">
-								<div class="textles__item text text--sm ">
+							<div data-watch class="hero__textles textles _icon-star">
+								<div data-watch class="textles__item text text--sm ">
 									<p>We believe in the power of digital media to transform businesses and connect them with their
 										audiences in meaningful ways.</p>
 								</div>
@@ -407,7 +409,7 @@
 				</div>
 			</section>
 			<!-- 6 --><!-- Сниппет sect+ -->
-			<section class="page__our our">
+			<section data-watch data-watch-threshold=".5" class="page__our our">
 				<div class="our__container">
 					<div class="our__decor-star decor-star">
 						<span class="_icon-star"></span>
@@ -494,7 +496,7 @@
 		</footer>
 		<!--TODO #endregion -->
 	</div>
-	<script src="js/app.min.js?_v=20231120065026"></script>
+	<script src="js/app.min.js?_v=20231121054628"></script>
 </body>
 
 </html>

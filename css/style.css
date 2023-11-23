@@ -1817,8 +1817,8 @@ body {
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(1) {
-  -webkit-animation-delay: 2.3s;
-          animation-delay: 2.3s;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(1) img {
@@ -1827,8 +1827,8 @@ body {
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(2) {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(2) img {
@@ -1837,8 +1837,8 @@ body {
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(3) {
-  -webkit-animation-delay: 2.7s;
-          animation-delay: 2.7s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .help .body-help__mid._watcher-view .body-help__column:nth-child(3) img {
@@ -1892,18 +1892,18 @@ body {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .help .textles._watcher-view .textles__item:nth-child(1) {
-  -webkit-animation-delay: 2.2s;
-          animation-delay: 2.2s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
 }
 
 .help .textles._watcher-view .textles__item:nth-child(2) {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
 }
 
 .help .column-body {
